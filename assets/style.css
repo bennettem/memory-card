@@ -59,13 +59,11 @@ p {
 
 .card-container {
   padding: 30px 5%;
-}
-.card-container .row {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 25px;
 }
-.card-container .row .card {
+.card-container .card {
   background-color: #055c9d;
   border: 3px solid #fff;
   width: 200px;
@@ -73,15 +71,15 @@ p {
   border-radius: 5px;
   cursor: pointer;
 }
-.card-container .row .card.unflipped {
+.card-container .card.unflipped {
   background-image: radial-gradient(#242333 20%, transparent 20%), radial-gradient(#68bbe3 20%, transparent 20%);
   background-position: 0 0, 50px 50px;
   background-size: 20px 20px;
 }
-.card-container .row .card.unflipped .match-img {
+.card-container .card.unflipped .match-img {
   visibility: hidden;
 }
-.card-container .row .card.unflipped .match-img.active {
+.card-container .card.unflipped .match-img.active {
   visibility: visible;
 }
 
