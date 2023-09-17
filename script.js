@@ -9,3 +9,6 @@ cards.forEach(card => {
     card.classList.toggle("match-img.active");
   });
 });
+
+//shuffle cards on page load for different order
+function shuffleCards() {}
