@@ -1,1 +1,42 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #242333;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+p {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.card-container {
+  padding: 30px 5%;
+}
+.card-container .row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 25px;
+}
+.card-container .row .card {
+  background-color: #055c9d;
+  border: 3px solid #fff;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+.card-container .row .card.flipped .match-img {
+  font-size: 80px;
+  display: grid;
+  place-items: center;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
